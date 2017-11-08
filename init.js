@@ -7,11 +7,15 @@ function init() {
 		CELL_WIDTH: 40,
 		CELL_HEIGHT: 40,
 		figures: ["1", "1,1", "1,1,1", "1,1,1,1", "0,0,1;1,1,1", "1,0,0;1,1,1", "0,1,1;1,1,0", "1,1,0;0,1,1", "0,1,0;1,1,1", "1,1;1,1"],
-		canvas_id: "Tetris"
+		canvas_gridID: "Grid",
+		canvas_figuresID: "Figures",
+		canvas_glassID: "Glass",
+		canvas_containerID: "Tetris",
+		canvas_class: "layer"
 	}
 
 	tetris = new Tetris(options);
-	tetris.draw(options);
+	tetris.drawCells(options);
 	//tetris.startGame();
 	//tetris.pauseGame();
 	
