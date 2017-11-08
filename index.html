@@ -6,7 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="st.css">
 </head>
 <body>
-	<canvas id="Tetris"></canvas>
+	<div id="Tetris">
+		<canvas class="layer" id="Figures"></canvas>
+		<canvas class="layer" id="Grid"></canvas>
+		<canvas class="layer" id="Glass"></canvas>
+
+	</div>
 	<form>
 		<input type="button" name="start" value="Start Game"><br>
 		<input type="button" name="start" value="Pause Game"><br>
@@ -17,8 +22,12 @@
 	<script type="text/javascript" src="init.js"></script>
 	<script type="text/javascript" src="tetris.js"></script>
 	<script type="text/javascript" src="tetris_draw.js"></script>
-	<script type="text/javascript" src="make_phases.js"></script>
-	
+	<script type="text/javascript" src="make_figures.js"></script>
+	<script type="text/javascript" src="gameStep.js"></script>
+	<script type="text/javascript" src="Listeners.js"></script>
+	<script type="text/javascript" src="Others.js"></script>
+	<script type="text/javascript" src="drawFigure.js"></script>
+
 	<!--
 	<script type="text/javascript" src="x.js"></script>
 	<script type="text/javascript" src="x.js"></script>
