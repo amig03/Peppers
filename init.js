@@ -11,7 +11,8 @@ function init() {
 		canvas_figuresID: "Figures",
 		canvas_glassID: "Glass",
 		canvas_containerID: "Tetris",
-		canvas_class: "layer"
+		canvas_class: "layer",
+		fall_delta: 120
 	}
 
 	tetris = new Tetris(options);
