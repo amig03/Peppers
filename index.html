@@ -11,12 +11,13 @@
 		<canvas class="layer" id="Grid"></canvas>
 		<canvas class="layer" id="Glass"></canvas>
 		<div id="back"></div>
-		<div id="message">Game Over</div>
+		<!-- <div id="message">Game Over</div> -->
 	</div>
 	<form>
-		<input type="button" name="start" value="Start Game"><br>
-		<input type="button" name="start" value="Pause Game"><br>
-		<input type="button" name="start" value="End Game"><br>
+		<input type="button" id="start" value="Start"><br>
+		<input type="button" id="pause" value="Pause"><br>
+		<input type="button" id="stop" value="End"><br>
+		<label id="scores">Scores: 0</label><br>
 	</form>
 
 	<script type="text/javascript" src="onload.js"></script>
@@ -24,20 +25,8 @@
 	<script type="text/javascript" src="tetris.js"></script>
 	<script type="text/javascript" src="tetris_draw.js"></script>
 	<script type="text/javascript" src="make_figures.js"></script>
-	<script type="text/javascript" src="gameStep.js"></script>
 	<script type="text/javascript" src="Listeners.js"></script>
-	<script type="text/javascript" src="Others.js"></script>
-	<script type="text/javascript" src="otherPublic.js"></script>
-
-	<!--
-	<script type="text/javascript" src="x.js"></script>
-	<script type="text/javascript" src="x.js"></script>
-	<script type="text/javascript" src="x.js"></script>
-	<script type="text/javascript" src="x.js"></script>
-	<script type="text/javascript" src="x.js"></script>
-	<script type="text/javascript" src="x.js"></script>
-	<script type="text/javascript" src="x.js"></script>
-	-->
+	<script type="text/javascript" src="others.js"></script>
 
 </body>
 </html>
