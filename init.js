@@ -12,12 +12,10 @@ function init() {
 		canvas_glassID: "Glass",
 		canvas_containerID: "Tetris",
 		canvas_class: "layer",
-		fall_delta: 120
+		fall_delta: 500
 	}
 
 	tetris = new Tetris(options);
-	tetris.drawCells(options);
-	//tetris.startGame();
-	//tetris.pauseGame();
 	
+	tetris.drawCells(options);
 }
